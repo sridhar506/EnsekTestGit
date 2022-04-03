@@ -1,0 +1,13 @@
+C:\Users\Sri\source\repos\EnsekEntities\bin\Debug\netcoreapp3.1\EnsekEntities.deps.json
+C:\Users\Sri\source\repos\EnsekEntities\bin\Debug\netcoreapp3.1\EnsekEntities.runtimeconfig.json
+C:\Users\Sri\source\repos\EnsekEntities\bin\Debug\netcoreapp3.1\EnsekEntities.runtimeconfig.dev.json
+C:\Users\Sri\source\repos\EnsekEntities\bin\Debug\netcoreapp3.1\EnsekEntities.dll
+C:\Users\Sri\source\repos\EnsekEntities\bin\Debug\netcoreapp3.1\EnsekEntities.pdb
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EnsekEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EnsekEntities.AssemblyInfoInputs.cache
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EnsekEntities.AssemblyInfo.cs
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EnsekEntities.csproj.CoreCompileInputs.cache
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EnsekEntities.dll
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EnsekEntities.pdb
+C:\Users\Sri\source\repos\EnsekEntities\obj\Debug\netcoreapp3.1\EnsekEntities.genruntimeconfig.cache
