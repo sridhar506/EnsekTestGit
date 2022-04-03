@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/Pd3DdKLWdlqMq+dS6QzzMpdNZCxPQXscrcVZpm6VNXUh+IgUBsgLYtuEn1Ihoo+gW8pFIsK6WaHNrl1fPK9Bw==",
+  "dgSpecHash": "WSVhDW4G38as62CmjsVw7wZAAVS2CRx84wlX55nwMYYRZlaN6jzc7oR9U7lGwK4RDL1Zj2lxZotYt6Lz8z4xwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekTechincalTest\\EnsekTechincalTest.csproj",
+  "projectFilePath": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekTechincalTest\\EnsekTechincalTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sri\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Sri\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

@@ -35,9 +35,7 @@ namespace EnsekTechincalTest.Controllers
 
         [HttpPost]
         public MeterReadingResponse Post(IFormFile file)
-        //public MeterReadingResponse Post()
         {
-            //var httpPostedFile = HttpContext.Request.Form.Files["UploadCSV"];
             MeterReadingResponse returnValue = new MeterReadingResponse();
 
             if (file.FileName.ToLower().EndsWith(".csv"))
@@ -71,19 +69,16 @@ namespace EnsekTechincalTest.Controllers
                                     else
                                     {
                                         InvalidData.Add(line);
-                                        returnValue.FailedReadingsCount++;
                                     }
                                 }
                                 catch
                                 {
                                     InvalidData.Add(line);
-                                    returnValue.FailedReadingsCount++;
                                 }
                             }
                             else
                             {
                                 InvalidData.Add(line);
-                                returnValue.FailedReadingsCount++;
                             }
                         }
                     }
@@ -95,7 +90,7 @@ namespace EnsekTechincalTest.Controllers
                     {
                         AccountId = reading.AccountId,
                         MeterReading = reading.MeterReadValue,
-                        MeterReadingDate = reading.MeterReadingDateTime
+                        MeterReadingDate = reading.MeterReadingDateTime.ToString("dd-MM-yyyy HH:mm")
                     };
                     if (mValidate.Validate(reading.AccountId, reading.MeterReadValue, reading.MeterReadingDateTime))
                     {
@@ -149,7 +144,7 @@ namespace EnsekTechincalTest.Controllers
         {
             public int AccountId { get; set; }
             public string MeterReading { get; set; }
-            public DateTime MeterReadingDate { get; set; }
+            public string MeterReadingDate { get; set; }
         }
     }
 }

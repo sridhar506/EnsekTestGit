@@ -1,0 +1,99 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Upload Meter Readings</h1>
+    <div class="row">
+
+        <form enctype="multipart/form-data">
+
+            <div class="input-group mb-3">
+                <input type="file" class="form-control" id="fileUpload">
+                <label class="input-group-text" id="upload">Upload</label>
+            </div>
+
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-floating">
+                <label for="floatingTextarea" id="successCount">Success Data :0</label>
+                <textarea class="form-control" id="successArea" rows="20" disabled></textarea>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-floating">
+                <label for="floatingTextarea" id="failedCount">Failed Data :0</label>
+                <textarea class="form-control" id="failedArea" rows="20" disabled></textarea>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="form-floating">
+                <label for="floatingTextarea" id="invalidCount">Invalid Data :0</label>
+                <textarea class="form-control" id="invalidArea" rows="20" disabled></textarea>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#upload').click(function () {
+                var data = new FormData();
+
+                var files = $("#fileUpload").get(0).files;
+
+                // Add the uploaded image content to the form data collection
+                if (files.length > 0) {
+                    data.append("file", files[0]);
+                    $.ajax({
+                        url: "https://localhost:44367/Meter_Reading_Uploads",
+                        type: 'POST',
+                        dataType: 'json',
+                        contentType: false,
+                        processData: false,
+                        data: data,
+                        success: function (res) {
+                            console.log(res);
+                            $("#successCount").html("Success Data :" + res.successfulReadingsCount);
+                            $("#failedCount").html("Failed Data :" + res.failedReadingsCount);
+
+                            $("#successArea").val(getString(res.successfulReadings));
+                            $("#failedArea").val(getString(res.failedReadings));
+                            $("#invalidArea").val(getInvalid(res.invalidData));
+                        },
+                        error: function (res) {
+                            console.log(res);
+                        }
+                    });
+                }
+            });
+
+            function getString(values) {
+                listText = "";
+                $.each(values, function (key, value) {
+                    listText += "Record " + (key + 1) + " :" + value.accountId + "," + value.meterReadingDate + "," + value.meterReading + "\n";
+                });
+                return listText;
+            }
+
+            function getInvalid(values) {
+                listText = "";
+                i = 0;
+                $.each(values, function (key, value) {
+                    listText += "Record " + (++i) + " :" + value + "\n";
+                });
+                $("#invalidCount").html("Invalid Data :" + i);
+
+                return listText;
+            }
+        });
+
+    </script>
+}

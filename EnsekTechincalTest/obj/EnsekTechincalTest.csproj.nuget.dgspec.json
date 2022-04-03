@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekTechincalTest\\EnsekTechincalTest.csproj": {}
+    "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekTechincalTest\\EnsekTechincalTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekEntities\\EnsekEntities.csproj": {
+    "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekEntities\\EnsekEntities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekEntities\\EnsekEntities.csproj",
+        "projectUniqueName": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekEntities\\EnsekEntities.csproj",
         "projectName": "EnsekEntities",
-        "projectPath": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekEntities\\EnsekEntities.csproj",
+        "projectPath": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekEntities\\EnsekEntities.csproj",
         "packagesPath": "C:\\Users\\Sri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekEntities\\obj\\",
+        "outputPath": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekEntities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekTechincalTest\\EnsekTechincalTest.csproj": {
+    "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekTechincalTest\\EnsekTechincalTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekTechincalTest\\EnsekTechincalTest.csproj",
+        "projectUniqueName": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekTechincalTest\\EnsekTechincalTest.csproj",
         "projectName": "EnsekTechincalTest",
-        "projectPath": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekTechincalTest\\EnsekTechincalTest.csproj",
+        "projectPath": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekTechincalTest\\EnsekTechincalTest.csproj",
         "packagesPath": "C:\\Users\\Sri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekTechincalTest\\obj\\",
+        "outputPath": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekTechincalTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -124,8 +124,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekEntities\\EnsekEntities.csproj": {
-                "projectPath": "C:\\Users\\Sri\\source\\repos\\EnsekTechTest\\EnsekEntities\\EnsekEntities.csproj"
+              "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekEntities\\EnsekEntities.csproj": {
+                "projectPath": "C:\\Users\\Sri\\source\\repos\\EnsekTestGit\\EnsekTestGit\\EnsekEntities\\EnsekEntities.csproj"
               }
             }
           }
